@@ -2,7 +2,7 @@
 
 ### 说明
 
-* 接口基地址，如：'https://api.local.com/V4/'，具体地址请咨询运营人员
+* 接口基地址，如： https://api.local.com/V4/ ，具体地址请咨询运营人员
 * 接口遵循RESTful,默认请求体json,接口默认返回json
 * app_id, app_secret 联系技术客服，先注册一个lalcsafe.com的账号，用于申请绑定api身份
 
