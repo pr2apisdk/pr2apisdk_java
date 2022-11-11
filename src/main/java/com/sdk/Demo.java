@@ -29,7 +29,7 @@ public class Demo {
             api = "test.sdk.get";
             query.put("domain_id", "1");
             query.put("status", "2");
-            query.put("name", "name名称");
+            query.put("name", "name名称~!@#$%^&*()_+{}|:\"?><`1234567890-=[]\\';.,/");
             result = sdkObj.get(api, query);
             System.out.println(api + " get<api, query>: ");
             System.out.println(JSON.toJSONString(result) + "\n");
@@ -55,7 +55,7 @@ public class Demo {
             api = "test.sdk.post";
             postData.put("domain_id", "1");
             postData.put("status", "2");
-            postData.put("name", "name名称");
+            postData.put("name", "name名称~!@#$%^&*()_+{}|:\"?><`1234567890-=[]\\';.,/");
 
             result = sdkObj.post(api, postData);
             System.out.println(api + " post<api, postData>: ");
@@ -100,7 +100,7 @@ public class Demo {
             api = "test.sdk.patch";
             postData.put("domain_id", "1");
             postData.put("status", "2");
-            postData.put("name", "name名称");
+            postData.put("name", "name名称~!@#$%^&*()_+{}|:\"?><`1234567890-=[]\\';.,/");
 
             result = sdkObj.patch(api, postData);
             System.out.println(api + " patch<api, postData>: ");
@@ -119,7 +119,7 @@ public class Demo {
             api = "test.sdk.put";
             postData.put("domain_id", "1");
             postData.put("status", "2");
-            postData.put("name", "name名称");
+            postData.put("name", "name名称~!@#$%^&*()_+{}|:\"?><`1234567890-=[]\\';.,/");
 
             result = sdkObj.put(api, postData);
             System.out.println(api + " put<api, postData>: ");
@@ -139,7 +139,7 @@ public class Demo {
             api = "test.sdk.delete";
             postData.put("domain_id", "1");
             postData.put("status", "2");
-            postData.put("name", "name名称");
+            postData.put("name", "name名称~!@#$%^&*()_+{}|:\"?><`1234567890-=[]\\';.,/");
 
             result = sdkObj.delete(api, postData);
             System.out.println(api + " delete<api, postData>: ");
